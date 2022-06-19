@@ -19,3 +19,11 @@ for char, enum in zip(sampleAlphabet[0::2], evenNumber):
 
 for char, onum in zip(sampleAlphabet[1::2], oddNumber):
     print(f'{char}: {onum}')
+
+
+print('=' * 40)
+
+#  for loop to iterate backwards
+N = 6
+for num in reversed(range(N + 1)):
+    print(num)

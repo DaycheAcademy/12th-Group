@@ -14,11 +14,16 @@ for j in range(1, n, 2):
     oddNumber.append(j)
 
 # for loop to iterate between odd and even number
-for char, enum in zip(sampleAlphabet[0::2], evenNumber):
-    print(f'{char}: {enum}')
+# for char, enum in zip(sampleAlphabet[0::2], evenNumber):
+#     print(f'{char}: {enum}')
 
-for char, onum in zip(sampleAlphabet[1::2], oddNumber):
-    print(f'{char}: {onum}')
+# for char, onum in zip(sampleAlphabet[1::2], oddNumber):
+#     print(f'{char}: {onum}')
+    
+# ---------------------------
+    for chareven, charodd in zip(sampleAlphabet[0::2], sampleAlphabet[1::2]):
+    print(f'{chareven}, {charodd}') 
+# ---------------------------
 
 
 print('=' * 40)
